@@ -1,0 +1,20 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /dashboard
+Disallow: /404
+
+# black-listed-bot
+User-agent: black-listed-bot
+Disallow: /admin
+Disallow: /private
+Disallow: /dashboard
+
+# Host
+Host: https://hngproductions.in
+
+# Sitemaps
+Sitemap: https://hngproductions.in/sitemap.xml
+Sitemap: https://hngproductions.in/images-sitemap.xml
